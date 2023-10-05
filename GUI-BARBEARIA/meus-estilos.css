@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+.apresentacao_principal{
+    background-color: silver;
+}
+
+.apresentacao_beneficios{
+    background-color: white;
+    padding: 20px
+    ;
+}
+
+h1{
+   text-align: center;
+}
+
+p{
+    text-align: center;
+    background: silver;
+}
+
+body{
+    background: silver;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+strong em {
+    color: red;
+}
+
+#missao{
+    font-size: 20px;
+}
+
+#banner{
+    width: 100%;
+}
+
+.itens{
+    font-size: italic;
+}
+
+.imagem_beneficios{
+    width: 50%;
+}
+
+ul{
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+h2{
+    text-align: center;
+}

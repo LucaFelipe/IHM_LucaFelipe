@@ -1,6 +1,6 @@
+import { IProduto } from './../models/IProduto';
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import { IProduto } from '../models/IProduto';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -13,5 +13,10 @@ export class ProdutoService {
 
   public findall(): Observable<IProduto[]> {
     return this.http.get<IProduto[]>(this.URI_PORDUTOS);
+  }
+
+  public create(produto: IProduto):Observable<IProduto> {
+    console.log(produto);
+    return this.http.post<IProduto>(this.URI_PORDUTOS, produto);
   }
 }

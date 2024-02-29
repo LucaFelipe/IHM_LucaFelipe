@@ -1,2 +1,5 @@
 # IHM_LucaFelipe
-S205
+Aprendendo Interface Homem Máquina - Front end
+HTML
+CSS
+Typescript
